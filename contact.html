@@ -46,6 +46,16 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init({
+           publicKey: "tlE6acu4YWsTKEHNn",
+         });
+      })();
+    </script>
   </head>
   <body>
     <div class="preloader">
@@ -236,10 +246,7 @@
                   data-wow-duration="1500ms"
                 >
                   <h3>Avez-vous des questions</h3>
-                  <form
-                    action="https://formsubmit.co/inbox@apexweb.live/61fffa47a9b72719cb33594897768912"
-                    method="POST"
-                  >
+                  <form id="formSendEmail">
                     <div class="row">
                       <div class="col-12">
                         <input
@@ -265,7 +272,7 @@
                           rows="10"
                           placeholder="Votre message"
                         ></textarea>
-                        <input type="submit" value="Envoyer le message" />
+                        <input type="submit" id="submitFormContactForm" value="Envoyer le message">
                       </div>
                     </div>
                   </form>
@@ -440,6 +447,8 @@
     </footer>
 
     <div class="cursor"></div>
+
+    <script src="./assets/js/senderEmail.js"></script>
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
