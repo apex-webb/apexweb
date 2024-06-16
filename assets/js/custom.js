@@ -17,7 +17,7 @@
     }
   );
   jQuery(window).on("load", function () {
-    $(".preloader").delay(1600).fadeOut("slow");
+    $(".preloader").delay(800).fadeOut("slow");
   });
   const currentLocation = location.href;
   const menuItem = document.querySelectorAll("ul li a");
