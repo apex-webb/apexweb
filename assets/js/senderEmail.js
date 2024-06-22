@@ -15,7 +15,7 @@ submitFormContactForm.addEventListener('click',((e)=>{
     emailjs.send(serviceID,templateID,params)
     .then(res => {
         alert('Message Send Successfully')
-        formSendEmail.submit()
+        window.location= "https://" + window.location.hostname + "/contact.html"
     })
     .catch(err=>{
         alert('Message Not Send Successfully')
