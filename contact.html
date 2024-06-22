@@ -46,16 +46,6 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-      (function(){
-         emailjs.init({
-           publicKey: "tlE6acu4YWsTKEHNn",
-         });
-      })();
-    </script>
   </head>
   <body>
     <div class="preloader">
@@ -130,7 +120,7 @@
         <div class="line_item"></div>
         <div class="line_item"></div>
       </div>
-    
+
       <section class="breadcrumbs">
         <div class="container">
           <div class="row">
@@ -143,9 +133,15 @@
                     <i class="bi bi-arrow-right"></i>Contactez-nous
                   </span>
                   <div class="breadcrumb-video">
-                    <img src="assets/img/breadcrumb-video.jpg" alt="Video Thumbnail" />
+                    <img
+                      src="assets/img/breadcrumb-video.jpg"
+                      alt="Video Thumbnail"
+                    />
                     <div class="video-inner">
-                      <a class="video-popup" href="https://www.youtube.com/watch?v=M1amrI0b5S0">
+                      <a
+                        class="video-popup"
+                        href="https://www.youtube.com/watch?v=M1amrI0b5S0"
+                      >
                         <i class="fas fa-play"></i>
                       </a>
                     </div>
@@ -156,7 +152,7 @@
           </div>
         </div>
       </section>
-    
+
       <section class="contact-area sec-mar">
         <div class="container">
           <div class="row">
@@ -168,16 +164,24 @@
                 </div>
                 <ul class="social-follow">
                   <li>
-                    <a href="https://www.facebook.com/assinmiri/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/assinmiri/"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/YElhima55538"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/YElhima55538"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="https://www.pinterest.com/"
+                      ><i class="fab fa-pinterest-p"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/apex_webb/?hl=fr-ca"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/apex_webb/?hl=fr-ca"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
                 <div class="informations">
@@ -214,59 +218,111 @@
             <div class="col-md-6 col-lg-7">
               <div class="mapouter">
                 <div class="gmap_canvas">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106376.5600077202!2d-7.504590985162265!3d33.57240323224808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d004da38b99%3A0x6da8e059301650b7!2sAPEX%20WEB!5e0!3m2!1sar!2sma!4v1719054139475!5m2!1sar!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106376.5600077202!2d-7.504590985162265!3d33.57240323224808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d004da38b99%3A0x6da8e059301650b7!2sAPEX%20WEB!5e0!3m2!1sar!2sma!4v1719054139475!5m2!1sar!2sma"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
           <div class="getin-touch">
             <div class="row">
               <div class="col-md-6 col-lg-7">
-                <div class="contact-form wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div
+                  class="contact-form wow animate fadeInUp"
+                  data-wow-delay="200ms"
+                  data-wow-duration="1500ms"
+                >
                   <h3>Avez-vous des questions</h3>
                   <form id="formSendEmail">
                     <div class="row">
                       <div class="col-12">
-                        <input type="text" name="name" placeholder="Entrez votre nom" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Entrez votre nom"
+                        />
                       </div>
                       <div class="col-md-6">
-                        <input type="email" name="email" placeholder="Entrez votre email" />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Entrez votre email"
+                        />
                       </div>
                       <div class="col-md-6">
                         <input type="text" name="subject" placeholder="Objet" />
                       </div>
                       <div class="col-12">
-                        <textarea name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
-                        <input type="submit" id="submitFormContactForm" value="Envoyer le message">
+                        <textarea
+                          name="message"
+                          cols="30"
+                          rows="10"
+                          placeholder="Votre message"
+                        ></textarea>
+                        <input
+                          type="submit"
+                          id="submitFormContactForm"
+                          value="Envoyer le message"
+                        />
                       </div>
                     </div>
                   </form>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-5 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+              <div
+                class="col-md-6 col-lg-5 wow animate fadeInUp"
+                data-wow-delay="300ms"
+                data-wow-duration="1500ms"
+              >
                 <div class="call-banner">
-                  <img src="assets/img/call-center.png" alt="Call Center Banner" />
+                  <img
+                    src="assets/img/call-center.png"
+                    alt="Call Center Banner"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-    
+
       <section class="subscribe-newsletter sec-mar-top">
         <div class="container">
           <div class="news-letter-content">
             <div class="row align-items-center">
-              <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <div
+                class="col-lg-6 wow animate fadeInLeft"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
                 <div class="subscribe-cnt">
                   <span>Get In Touch</span>
                   <h3>Subscribe Our</h3>
                   <strong>Newsletter</strong>
                 </div>
               </div>
-              <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <div
+                class="col-lg-6 wow animate fadeInRight"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
                 <div class="subscribe-form">
-                  <form action="https://formsubmit.co/inbox@apexweb.live/61fffa47a9b72719cb33594897768912" method="POST">
-                    <input type="email" name="email" placeholder="Type Your Email" />
+                  <form
+                    action="https://formsubmit.co/inbox@apexweb.live/61fffa47a9b72719cb33594897768912"
+                    method="POST"
+                  >
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Type Your Email"
+                    />
                     <input type="submit" value="connect" />
                   </form>
                 </div>
@@ -276,7 +332,7 @@
         </div>
       </section>
     </main>
-    
+
     <footer role="contentinfo">
       <div class="container">
         <div class="footer-top">
@@ -285,20 +341,28 @@
               <div class="footer-widget">
                 <div class="footer-logo">
                   <a href="index.html" aria-label="Home">
-                    <img src="assets/img/tt-removebg-preview.png" alt="Logo">
+                    <img src="assets/img/tt-removebg-preview.png" alt="Logo" />
                   </a>
                 </div>
                 <p>
-                  Nous sommes une équipe de jeunes entrepreneurs marocains hautement motivés et dévoués. Nous croyons en la puissance de la technologie pour transformer les idées en réalité.
+                  Nous sommes une équipe de jeunes entrepreneurs marocains
+                  hautement motivés et dévoués. Nous croyons en la puissance de
+                  la technologie pour transformer les idées en réalité.
                 </p>
                 <ul class="social-media-icons">
                   <li>
-                    <a href="https://www.facebook.com/assinmiri/" aria-label="Facebook">
+                    <a
+                      href="https://www.facebook.com/assinmiri/"
+                      aria-label="Facebook"
+                    >
                       <i class="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/YElhima55538" aria-label="Twitter">
+                    <a
+                      href="https://twitter.com/YElhima55538"
+                      aria-label="Twitter"
+                    >
                       <i class="fab fa-twitter"></i>
                     </a>
                   </li>
@@ -308,7 +372,10 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/apex_webb" aria-label="Instagram">
+                    <a
+                      href="https://www.instagram.com/apex_webb"
+                      aria-label="Instagram"
+                    >
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
@@ -324,7 +391,9 @@
                   <li><a href="contact.html">Solution Web</a></li>
                   <li><a href="contact.html">Marketing Digital</a></li>
                   <li><a href="contact.html">Conception d'Application</a></li>
-                  <li><a href="contact.html">Développement d'Application</a></li>
+                  <li>
+                    <a href="contact.html">Développement d'Application</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -378,8 +447,16 @@
             </div>
             <div class="col-12 col-md-8 col-lg-8 col-xl-7">
               <ul class="footer-bottom-menu">
-                <li><a href="#" aria-label="Politique de confidentialité">Politique de confidentialité</a></li>
-                <li><a href="#" aria-label="Conditions d'utilisation">Conditions d'utilisation</a></li>
+                <li>
+                  <a href="#" aria-label="Politique de confidentialité"
+                    >Politique de confidentialité</a
+                  >
+                </li>
+                <li>
+                  <a href="#" aria-label="Conditions d'utilisation"
+                    >Conditions d'utilisation</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -410,5 +487,16 @@
     <script src="assets/js/wow.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "tlE6acu4YWsTKEHNn",
+        });
+      })();
+    </script>
   </body>
 </html>
