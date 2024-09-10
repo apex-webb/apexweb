@@ -60,32 +60,3 @@ particlesJS("particles-js", {
     background_size: "cover",
   },
 });
-// Désactiver Ctrl+U (afficher le code source)
-document.addEventListener("keydown", function (e) {
-  if (e.ctrlKey && e.key === 'u') {
-    e.preventDefault();
-    alert("L'accès au code source est désactivé.");
-  }
-});
-
-// Désactiver Ctrl+Shift+I (outils de développement)
-document.addEventListener("keydown", function (e) {
-  if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-    e.preventDefault();
-    alert("L'accès aux outils de développement est désactivé.");
-  }
-});
-
-// Désactiver Ctrl+Shift+J (console JavaScript)
-document.addEventListener("keydown", function (e) {
-  if (e.ctrlKey && e.shiftKey && e.key === 'J') {
-    e.preventDefault();
-    alert("L'accès à la console JavaScript est désactivé.");
-  }
-});
-
-// Désactiver clic droit
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
-  alert("Le clic droit est désactivé.");
-});
